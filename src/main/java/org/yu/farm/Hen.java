@@ -15,4 +15,8 @@ public class Hen extends Animal {
         System.out.println("Shimmy-Shack!");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Hen is eating");
+    }
 }
